@@ -10,3 +10,47 @@ body {
   margin: 0;
   min-height: 100%;
 }
+
+header {
+  color: maroon;
+  text-align: center;
+}
+
+table {
+  border: 1px solid maroon;
+  box-shadow:         3px 3px 5px 6px color;
+}
+
+
+td {
+  width: 40px;
+  height: 40px;
+}
+
+
+td {
+  background-color:lightgrey;
+  border-color: lightgrey;
+}
+
+td {
+    -moz-box-shadow:    inset 0 0 10px #f8f5f5;
+    -webkit-box-shadow: inset 0 0 10px #f8f5f5;
+    box-shadow:         inset 0 0 10px #f8f5f5;
+ }
+
+ .gameBoard {
+  height: 0;
+  position: relative;
+ }
+
+ button {
+  background-color: green;
+  border: 5px solid red;
+  border-radius: 3px;
+  color: white;
+  width: auto;
+  margin: 0.5rem;
+  font-size: 1rem;
+  font-family: 'Solway', serif;
+}
